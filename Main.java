@@ -42,7 +42,7 @@ class Main {
 
         for (LearningStream<String> learningStream : streams) {
             System.out.println("LearningStream:");
-            System.out.println(" " + learningStream.getItems());
+            System.out.println(learningStream.getItems());
             }       
         }
     }
